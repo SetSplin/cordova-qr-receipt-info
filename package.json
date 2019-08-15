@@ -1,0 +1,16 @@
+{
+  "name": "cordova-qr-receipt-info",
+  "version": "1.0.0",
+  "description": "Get Russian receipt info using string from qr code",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "repository": "git@github.com:SetSplin/cordova-qr-receipt-info.git",
+  "author": "Igor Tarakanov",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env rollup src/index.js --file dist/index.js --format cjs"
+  },
+  "dependencies": {
+    "rollup": "^1.19.4"
+  }
+}
